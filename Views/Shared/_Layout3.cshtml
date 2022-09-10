@@ -1,0 +1,118 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@@popperjs/core@2.11.6/dist/cjs/popper.min.js"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <title>Anasayfa</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">ÖrnekProje2</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white  box-shadow mb-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" data-bs-target="navbarSupportedContent" data-bs-toggle="collapse" type="button" aria-controls="navbarSupprtedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon">1</span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/home/Anasayfa">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/home/sayfa1">Sayfa 1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/home/sayfa2">Sayfa 2</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+
+                </form>
+            </div>
+        </div>
+
+    </nav>
+    <br />
+    
+        <div class="container">
+           <div class="row">
+               <div id="carouselExampleIndicators" class="carousel slide"
+                    data-bs-ride="carousel">
+                   <ol class="carousel-indicators">
+                       <li data-bs-target="#carouselExampleIndicators" data-bs-toggle="0" class="active"></li>
+                       <li data-bs-target="#carouselExampleIndicators" data-bs-toggle="0"></li>
+                       <li data-bs-target="#carouselExampleIndicators" data-bs-toggle="0"></li>
+                   </ol>
+                   <div class="carousel-inner">
+                       <div class="carousel-item active">
+                           <img src="~/images/aBg.png" height="400" class="d-block w-100" alt="..." />
+                       </div>
+                       <div class="carousel-item active">
+                           <img src="~/images/aBg.png" height="400" class="d-block w-100" alt="..." />
+                       </div>
+                       <div class="carousel-item active">
+                           <img src="~/images/aBg.png" height="400" class="d-block w-100" alt="..." />
+                       </div>
+                       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                           <span class="visually-hidden">Previous</span>
+                       </a>
+                       <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+                           <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                           <span class="visually-hidden">Next</span>
+                       </a>
+                   </div>
+
+               </div>
+           </div>
+            <div class="row">
+                <div class="col-md-2">
+                    <ul class="list-group">
+                        <li class="list-group-item">Anasayfa</li>
+                        <li class="list-group-item">Sayfa 1</li>
+                        <li class="list-group-item">Sayfa 2</li>
+                        <li class="list-group-item">Sayfa 3</li>
+                        <li class="list-group-item">Sayfa 4</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+ 
+
+ 
+    <br />>
+    <div class="row">
+        <div class="col-md-2">
+            @RenderSection("solmenu", false)
+        </div>
+        <div class="col-md-8">
+            @RenderBody()
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+</body>
+</html>
+
