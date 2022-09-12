@@ -39,7 +39,7 @@ namespace ÖrnekProje2.Controllers
         {
             return View();
         }
-        public IActionResult Layouts()
+        public IActionResult Deneme()
         {
             return View();
         }

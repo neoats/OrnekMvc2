@@ -51,7 +51,7 @@ namespace ÖrnekProje2
             {
                 endpoints.MapControllerRoute(
                    name: "default",
-                   pattern: "{controller=Home}/{action=Layouts}/{id?}");
+                   pattern: "{controller=Home}/{action=Deneme}/{id?}");
                 
                
             });
