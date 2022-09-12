@@ -18,6 +18,7 @@ namespace ÖrnekProje2.Controllers
         {
             return View();
         }
+     
         public IActionResult Validation()
         {
             return View();

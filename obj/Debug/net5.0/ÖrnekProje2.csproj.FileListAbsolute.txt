@@ -371,3 +371,4 @@ C:\Users\Fuat\Desktop\osman hoca   studio\Net core 5.0 web\ÖrnekProje2\obj\Debu
 C:\Users\Fuat\Desktop\osman hoca   studio\Net core 5.0 web\ÖrnekProje2\obj\Debug\net5.0\ÖrnekProje2.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Fuat\Desktop\osman hoca   studio\Net core 5.0 web\ÖrnekProje2\obj\Debug\net5.0\ÖrnekProje2.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Fuat\Desktop\osman hoca   studio\Net core 5.0 web\ÖrnekProje2\obj\Debug\net5.0\Razor\Views\Shared\_Layout3.cshtml.g.cs
+C:\Users\Fuat\Desktop\osman hoca   studio\Net core 5.0 web\ÖrnekProje2\obj\Debug\net5.0\Razor\Views\Home\Layouts.cshtml.g.cs

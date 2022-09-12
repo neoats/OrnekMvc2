@@ -29,7 +29,7 @@ using ÖrnekProje2.Models;
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"6b9fb7867bf3e92b28950e10464d116c1e0b282c", @"/Views/Home/sayfa2.cshtml")]
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"42b531b4a3e52391f5b5186b6a1d8d993bed5a9b", @"/Views/_ViewImports.cshtml")]
     #nullable restore
-    public class Views_Home_sayfa2 : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<lay>
+    public class Views_Home_sayfa2 : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<>
     #nullable disable
     {
         #pragma warning disable 1998
@@ -57,7 +57,7 @@ using ÖrnekProje2.Models;
         #nullable disable
         #nullable restore
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]
-        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<lay> Html { get; private set; } = default!;
+        public global::Microsoft.AspNetCore.Mvc.Rendering.IHtmlHelper<> Html { get; private set; } = default!;
         #nullable disable
     }
 }
